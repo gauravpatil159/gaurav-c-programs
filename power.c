@@ -17,6 +17,8 @@ int pwr(int n, int m)                /*function pwr use to get n raise to m usin
     a = n;
     for(i = m; i > 1; i--)
     n = n * a;
+    
+    
     return (n);
 
 }
